@@ -12,4 +12,14 @@
 header > .title {
     margin-bottom: 1rem;
 }
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.image {
+    background-position: center;
+    margin-top: 25px;
+    width: 1000px;
+}
   
