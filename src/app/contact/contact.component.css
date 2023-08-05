@@ -1,0 +1,17 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.description {
+    font-size: x-large;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.title_font {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
