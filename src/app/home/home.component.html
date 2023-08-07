@@ -1,12 +1,23 @@
 <mat-toolbar color="primary">
-  <span>Vitéz Oszlányi Kornél</span>
+  <button mat-raised-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    Menü
+  </button>
+  <mat-menu #menu="matMenu" yPosition="below">
+    <button mat-menu-item routerLink="/csaladfa">Családfa</button>
+    <button mat-menu-item routerLink="/gyerek">Gyerekkora és tanulmányai</button>
+    <button mat-menu-item routerLink="/palya">Pályafutása</button>
+    <button mat-menu-item routerLink="/kepek">Képek és kitüntetések</button>
+    <button mat-menu-item routerLink="/cikkek">Érdekes cikkek</button>
+  </mat-menu>
+  <span class="spacer"></span>
+  <span class="title_font">vitéz Oszlányi Kornél honlapja</span>
   <span class="spacer"></span>
   <button mat-raised-button routerLink="/kapcsolat">Kapcsolat</button>
 </mat-toolbar>
 
 
 <header class="header">
-  <h1 class="title">Boldog születésnapot!</h1>
-  <p class="description">Ez itt egy helykitöltő a vitéz Oszlányi Kornél weboldalnak!</p> 
+  <h1 class="title">Boldog 80. születésnapot, Iván papi!</h1>
+  <p class="description">Üdvözlünk vitéz Oszlányi Kornél honlapján!</p> 
   <img class="image" src="/assets/family.png" alt="image">
 </header>

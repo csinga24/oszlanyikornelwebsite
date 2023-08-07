@@ -13,6 +13,10 @@ header > .title {
     margin-bottom: 1rem;
 }
 
+header > .description {
+    font-size: x-large;
+}
+
 .spacer {
     flex: 1 1 auto;
 }
@@ -21,5 +25,10 @@ header > .title {
     background-position: center;
     margin-top: 25px;
     width: 1000px;
+}
+
+.title_font {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
 }
   
